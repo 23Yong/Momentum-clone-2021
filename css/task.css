@@ -1,0 +1,56 @@
+.toDoForm input {
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid white;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.tasks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  margin: 0 40px;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+
+.column h5 {
+  margin: 0;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.column ul {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.column ul li {
+  list-style: none;
+}
+
+.column li button {
+  position: relative;
+  bottom: 5px;
+  background: none;
+  border: none;
+  font-size: 10px;
+  color: transparent;
+  text-shadow: 0 0 0 white;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: ease-in-out 0.3s;
+}
+
+.column li button:hover {
+  opacity: 1;
+}

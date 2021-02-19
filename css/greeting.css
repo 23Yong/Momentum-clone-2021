@@ -1,0 +1,35 @@
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
+
+.form {
+  margin-bottom: 55px;
+}
+
+.form input {
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid white;
+  text-align: center;
+  color: rgb(145, 145, 145);
+  font-size: 50px;
+  font-weight: 600;
+}
+
+input:focus {
+  outline: none;
+}
+
+.greetings {
+  border: none;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 55px;
+}

@@ -3,16 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <title>Something</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="top-bar">
-      <div class="search">
-        <i class="fas fa-search"></i>
-      </div>
       <div class="js-weather"></div>
     </div>
-    <div class="js-clock">
+    <div class="js-clock clock">
       <h1>00:00</h1>
     </div>
 
@@ -22,11 +19,19 @@
 
     <h4 class="js-greetings greetings"></h4>
 
-    <form class="js-toDoForm">
+    <form class="js-toDoForm toDoForm">
       <input type="text" placeholder="Write a to do" />
     </form>
-    <ul class="js-toDoList"></ul>
-
+    <div class="tasks">
+      <div class="toDoTask column">
+        <h5>To Do</h5>
+        <ul class="js-toDoList toDoList"></ul>
+      </div>
+      <div class="FinishedTask column">
+        <h5>Finished</h5>
+        <ul class="js-Finished Finished"></ul>
+      </div>
+    </div>
     <script src="clock.js"></script>
     <script src="greeting.js"></script>
     <script src="todo.js"></script>
