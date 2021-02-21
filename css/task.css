@@ -44,13 +44,12 @@
   background: none;
   border: none;
   font-size: 10px;
-  color: transparent;
+
   text-shadow: 0 0 0 white;
   cursor: pointer;
-  opacity: 0.5;
   transition: ease-in-out 0.3s;
 }
 
 .column li button:hover {
-  opacity: 1;
+  transform: scale(1.2);
 }
